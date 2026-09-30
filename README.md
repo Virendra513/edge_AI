@@ -1,9 +1,12 @@
-# Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
+#Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
+
+
+## Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
 
 This folder is the staging area for packaging the Q2_K GGUF in
 `../llama-3.2-1B-Instruct-gguf/` so it can run on an Android phone.
 
-## What we have today
+## Quantizied models
 
 Source directory: `../llama-3.2-1B-Instruct-gguf/`
 
