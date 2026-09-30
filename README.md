@@ -1,4 +1,4 @@
-#Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
+# Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
 
 
 ## Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
