@@ -1,0 +1,100 @@
+{
+  "buildFiles": [
+    "/home/virendra/work/LFT/modle321B/deploy/android/app/src/main/cpp/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/src/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/hash/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/miniaudio/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/nlohmann/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/sheredom/CMakeLists.txt",
+    "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/stb/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/virendra/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/virendra/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@d3a65483471855fe1d21": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml.so",
+      "runtimeFiles": [
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-cpu.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "ggml-base::@d3a65483471855fe1d21": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-base",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-base.so",
+      "runtimeFiles": []
+    },
+    "ggml-cpu::@d3a65483471855fe1d21": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-cpu",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-cpu.so",
+      "runtimeFiles": [
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "llama::@32fb59a8474f4dfc8d79": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llama",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libllama.so",
+      "runtimeFiles": [
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-cpu.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "llamachat::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llamachat",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/build/intermediates/cxx/Release/4f5g1572/obj/arm64-v8a/libllamachat.so",
+      "runtimeFiles": [
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libllama.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-cpu.so",
+        "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "vendor-hash::@7e7719c3bf3edc259a9a": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vendor-hash",
+      "output": "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/vendor/hash/libvendor-hash.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/virendra/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/virendra/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "c"
+  ]
+}

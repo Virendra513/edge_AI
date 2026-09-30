@@ -1,0 +1,12 @@
+/home/virendra/work/LFT/modle321B/deploy/android/app/src/main/cpp/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/src/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/hash/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/miniaudio/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/nlohmann/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/sheredom/CMakeLists.txt
+/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/stb/CMakeLists.txt

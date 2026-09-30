@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llama.cpp_build/vendor",
+		"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor"
+	}
+}

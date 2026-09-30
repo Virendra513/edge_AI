@@ -1,0 +1,89 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 307,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libllama.so"
+			],
+			"targetId" : "llama::@32fb59a8474f4dfc8d79",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/include/llama.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/include/llama-cpp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/llama",
+			"paths" : 
+			[
+				"/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/llama-config.cmake",
+				"/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/llama-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/llama.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llama.cpp_build",
+		"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp"
+	}
+}

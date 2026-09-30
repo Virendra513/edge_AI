@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 348,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 349,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 417,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml.so"
+			],
+			"targetId" : "ggml::@d3a65483471855fe1d21",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-cpu.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-alloc.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-backend.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-blas.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-cann.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-cpp.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-cuda.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-opt.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-metal.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-rpc.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-virtgpu.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-sycl.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-vulkan.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-webgpu.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-zendnn.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/ggml-openvino.h",
+				"/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/include/gguf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml-base.so"
+			],
+			"targetId" : "ggml-base::@d3a65483471855fe1d21",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ggml",
+			"paths" : 
+			[
+				"/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/ggml/ggml-config.cmake",
+				"/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a/llama.cpp_build/ggml/ggml-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llama.cpp_build/ggml",
+		"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml"
+	}
+}

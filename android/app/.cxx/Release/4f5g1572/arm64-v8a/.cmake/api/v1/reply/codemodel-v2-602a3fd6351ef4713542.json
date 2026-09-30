@@ -1,0 +1,304 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "llama.cpp_build",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp_build-Release-4ae12266014ac79a82c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp"
+				},
+				{
+					"build" : "llama.cpp_build/ggml",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp_build.ggml-Release-c514edd7b92d3b216800.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml"
+				},
+				{
+					"build" : "llama.cpp_build/ggml/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp_build.ggml.src-Release-a296dce9fd666438e54d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "llama.cpp_build/ggml/src/ggml-cpu",
+					"jsonFile" : "directory-llama.cpp_build.ggml.src.ggml-cpu-Release-f825373bf2d9a99f0db3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/ggml/src/ggml-cpu"
+				},
+				{
+					"build" : "llama.cpp_build/src",
+					"jsonFile" : "directory-llama.cpp_build.src-Release-72186ac351bc1608d78b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "llama.cpp_build/vendor",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-llama.cpp_build.vendor-Release-56765d135c05cd3fe528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor"
+				},
+				{
+					"build" : "llama.cpp_build/vendor/hash",
+					"jsonFile" : "directory-llama.cpp_build.vendor.hash-Release-79fa5faae98097b12dde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/hash",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "llama.cpp_build/vendor/miniaudio",
+					"jsonFile" : "directory-llama.cpp_build.vendor.miniaudio-Release-fd477c1f05e6a5261d3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/miniaudio"
+				},
+				{
+					"build" : "llama.cpp_build/vendor/nlohmann",
+					"jsonFile" : "directory-llama.cpp_build.vendor.nlohmann-Release-a3c79e1b9b19cb080bdf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/nlohmann"
+				},
+				{
+					"build" : "llama.cpp_build/vendor/sheredom",
+					"jsonFile" : "directory-llama.cpp_build.vendor.sheredom-Release-5f1768683a6bbe6e6ba1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/sheredom"
+				},
+				{
+					"build" : "llama.cpp_build/vendor/stb",
+					"jsonFile" : "directory-llama.cpp_build.vendor.stb-Release-7600c11be5e6e24455db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/home/virendra/work/LFT/modle321B/deploy/llama.cpp/vendor/stb"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "llamachat",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "ggml",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml::@d3a65483471855fe1d21",
+					"jsonFile" : "target-ggml-Release-d23aa07b7992a9d1e578.json",
+					"name" : "ggml",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-base::@d3a65483471855fe1d21",
+					"jsonFile" : "target-ggml-base-Release-fcebfb97f0607190118a.json",
+					"name" : "ggml-base",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu::@d3a65483471855fe1d21",
+					"jsonFile" : "target-ggml-cpu-Release-2920e3325dee5a5641c0.json",
+					"name" : "ggml-cpu",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "llama::@32fb59a8474f4dfc8d79",
+					"jsonFile" : "target-llama-Release-c278a83e3b917abad1e1.json",
+					"name" : "llama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "llamachat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-llamachat-Release-58c69a1b009a12964ac9.json",
+					"name" : "llamachat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "vendor-hash::@7e7719c3bf3edc259a9a",
+					"jsonFile" : "target-vendor-hash-Release-0500e18905f51dfb1ca5.json",
+					"name" : "vendor-hash",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a",
+		"source" : "/home/virendra/work/LFT/modle321B/deploy/android/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

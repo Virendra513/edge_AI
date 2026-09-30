@@ -1,0 +1,7 @@
+# Where the NDK lives. Required to build the JNI module.
+# Android Studio usually populates sdk.dir for you; add ndk.dir by hand.
+#
+# Example:
+
+sdk.dir=/home/virendra/Android/Sdk
+ndk.dir=/home/virendra/Android/Sdk/ndk/26.1.10909125

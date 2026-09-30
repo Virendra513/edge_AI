@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ replacement for backup_rules.xml. Same exclusions. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="models/" />
+        <exclude domain="file" path="chats/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="models/" />
+        <exclude domain="file" path="chats/" />
+    </device-transfer>
+</data-extraction-rules>

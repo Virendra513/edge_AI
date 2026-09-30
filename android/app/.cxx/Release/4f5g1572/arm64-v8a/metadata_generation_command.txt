@@ -1,0 +1,25 @@
+                        -H/home/virendra/work/LFT/modle321B/deploy/android/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/home/virendra/Android/Sdk/ndk/26.1.10909125
+-DCMAKE_ANDROID_NDK=/home/virendra/Android/Sdk/ndk/26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=/home/virendra/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/virendra/Android/Sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++17 -fvisibility=hidden -fexceptions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/virendra/work/LFT/modle321B/deploy/android/app/build/intermediates/cxx/Release/4f5g1572/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/virendra/work/LFT/modle321B/deploy/android/app/build/intermediates/cxx/Release/4f5g1572/obj/arm64-v8a
+-B/home/virendra/work/LFT/modle321B/deploy/android/app/.cxx/Release/4f5g1572/arm64-v8a
+-GNinja
+-DANDROID_STL=c++_shared
+-DANDROID_PLATFORM=android-24
+-DGGML_OPENMP=OFF
+-DLLAMA_BUILD_EXAMPLES=OFF
+-DLLAMA_BUILD_TESTS=OFF
+-DLLAMA_BUILD_SERVER=OFF
+-DLLAMA_CURL=OFF
+-DCMAKE_BUILD_TYPE=Release
+                        Build command args: []
+                        Version: 2

@@ -1,0 +1,16 @@
+<resources>
+    <color name="seed">#0F766E</color>
+    <color name="seed_dark">#0B5B55</color>
+    <color name="on_seed">#000000</color>
+    <color name="accent">#F59E0B</color>
+    <color name="on_accent">#000000</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#000000</color>
+    <color name="bubble_user">#0F766E</color>
+    <color name="bubble_assistant">#E2E8F0</color>
+    <color name="text_user">#000000</color>
+    <color name="text_assistant">#000000</color>
+    <color name="text_primary">#000000</color>
+    <color name="muted">#000000</color>
+</resources>

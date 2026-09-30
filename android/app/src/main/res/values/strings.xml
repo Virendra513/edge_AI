@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">essmorath</string>
+
+    <string name="title_chat">essmorath</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_message">Type a message…</string>
+    <string name="action_send">Send</string>
+    <string name="action_stop">Stop</string>
+
+    <string name="empty_state">Send a message to start the conversation.</string>
+
+    <string name="loading_model">Loading model…</string>
+    <string name="loading_model_subtitle">Copying GGUF to app storage and warming the runtime.</string>
+    <string name="model_loaded">Model ready.</string>
+    <string name="model_error">Could not load model: %1$s</string>
+
+    <string name="settings_title">Inference settings</string>
+    <string name="settings_temperature">Temperature</string>
+    <string name="settings_top_p">Top-p</string>
+    <string name="settings_top_k">Top-k</string>
+    <string name="settings_max_tokens">Max new tokens</string>
+    <string name="settings_threads">CPU threads (0 = auto)</string>
+    <string name="settings_ctx">Context size</string>
+    <string name="settings_gpu_layers">GPU layers (0 = CPU only)</string>
+    <string name="settings_system_prompt">System prompt</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_reset">Reset</string>
+
+    <string name="status_tokens_per_s">%1$.1f tok/s</string>
+    <string name="status_tokens">%1$d / %2$d tokens</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_generating">Generating…</string>
+    <string name="status_copying_model">Preparing model (%1$d%%)</string>
+
+    <string name="err_no_model">Model file is missing. Reinstall the app or pick a different variant.</string>
+    <string name="err_load_failed">Failed to load model: %1$s</string>
+
+    <string name="label_user">you</string>
+    <string name="label_assistant">assistant</string>
+</resources>
