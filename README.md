@@ -63,9 +63,19 @@ deploy/
 │   ├── build.gradle.kts
 │   ├── settings.gradle.kts
 │   └── gradle.properties
+├── data/
+│   └── data.txt   ← Instruction related to sentiment benchmarking dataset 
+│   
+├── inferencing/
+│   └── inference.py      ← Binary Result inferencing and evaluation 
+|
+├── model/
+│   └── quantize_to_gguf.py            ← Qunatization of FP16 model
+|
 ├── scripts/
 │   ├── build_llama_android.sh   ← one-time clone + NDK build of llama.cpp
 │   └── copy_model.sh            ← stage the chosen GGUF into assets/
+|
 ├── docs/
 │   ├── architecture.md
 │   └── benchmark.md
