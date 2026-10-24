@@ -1,12 +1,9 @@
 # Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
 
 
-
-
-<img src="images/EAI_1.png" alt="Model Architecture" width="500" height="300">
-
-
-
+<p align="center">
+  <img src="images/EAI_1.png" alt="Model Architecture" width="400" height="600">
+</p>
 
 ## Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
 
