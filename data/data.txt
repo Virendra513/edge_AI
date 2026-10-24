@@ -1,3 +1,3 @@
-The benchmark data file that is the balanced subset of the Stanford Sentiment Treebank (SST-1).
+The benchmark data file that is the subset containing 1000 samples of the Stanford Sentiment Treebank (SST-1). "https://dl.fbaipublicfiles.com/glue/data/SST-2.zip"
 
-Downlaod Link: "https://drive.google.com/file/d/1lmcJQHvDvmFFSb3GUod3mmG6DTUF9loI/view?usp=sharing"
+Download Link: "https://drive.google.com/file/d/1-OBGmIW6ie8XRL-oycOTnCT9s7tWqXVe/view?usp=sharing"
