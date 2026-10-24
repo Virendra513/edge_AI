@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="images/EAI_1.png" alt="Model Architecture" width="400" height="600">
+  <img src="images/EAI_1.png" alt="Model Architecture" width="350" height="550">
 </p>
 
 ## Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
