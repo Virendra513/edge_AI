@@ -1,10 +1,9 @@
 # Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
 
 
-![Model Architecture](images/EAI_1.png)
 
-![Model Architecture](images/EAI_2.png)
 
+<img src="images/EAI_1.png" alt="Model Architecture" width="500">
 
 
 
