@@ -51,7 +51,7 @@ Run the 1B model on-device with:
 ## Folder layout
 
 ```
-deploy/
+edge_AI/
 ├── README.md                   ← this file
 ├── android/                    ← Android Studio project (Kotlin + llama.cpp JNI)
 │   ├── app/
@@ -67,13 +67,19 @@ deploy/
 │   ├── build.gradle.kts
 │   ├── settings.gradle.kts
 │   └── gradle.properties
+|
+├── benchmarking/
+│   └── performance_benchmarking.py   ← Instruction related to performance (TTFT, TPOT, E2E Latency) benchmarking
+|   └── quality_benchmarking.py   ← Instruction related to sentiment benchmarking
+|   └── readme.md   ← Instruction related to  quality benchmarking
+|
 ├── data/
 │   └── data.txt   ← Instruction related to sentiment benchmarking dataset 
 │   
 ├── inferencing/
-│   └── inference.py      ← Binary Result inferencing and evaluation 
+│   └── inference.ipynb      ← Quantized Model Inferencing 
 |
-├── model/
+├── model_prepration/
 │   └── quantize_to_gguf.py            ← Qunatization of FP16 model
 |
 ├── scripts/
