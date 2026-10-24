@@ -3,7 +3,7 @@
 
 
 
-<img src="images/EAI_1.png" alt="Model Architecture" width="500">
+<img src="images/EAI_1.png" alt="Model Architecture" width="500" height="300">
 
 
 
