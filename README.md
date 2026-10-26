@@ -1,4 +1,4 @@
-# Towards Efficient On-Device Language Intelligence: Edge Deployment and Benchmarking of Quantized LLM Models
+# ELLMi: A Framework for Edge Deployment and Benchmarking of Quantized Large Language Models Towards Efficient On-Device Language Intelligence
 
 
 <p align="center">
@@ -75,7 +75,12 @@ edge_AI/
 |
 ├── data/
 │   └── data.txt   ← Instruction related to sentiment benchmarking dataset 
-│   
+│
+├── docs/
+│   ├── architecture.md
+│   └── benchmark.md 
+├── images/
+│   └── EAI_1.png 
 ├── inferencing/
 │   └── inference.ipynb      ← Quantized Model Inferencing 
 |
@@ -86,9 +91,7 @@ edge_AI/
 │   ├── build_llama_android.sh   ← one-time clone + NDK build of llama.cpp
 │   └── copy_model.sh            ← stage the chosen GGUF into assets/
 |
-├── docs/
-│   ├── architecture.md
-│   └── benchmark.md
+|
 └── llama.cpp/                   ← populated by build_llama_android.sh (gitignored)
 ```
 
