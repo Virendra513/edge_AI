@@ -146,13 +146,6 @@ All of these are editable at runtime via the Settings dialog (toolbar
 gear icon); changes take effect on the next turn. Changing `n_ctx` or
 `n_gpu_layers` triggers a model reload.
 
-## Out of scope
-
-- Server / cloud fallback — fully on-device.
-- Fine-tuning on-device — too heavy for a phone.
-- iOS — same GGUF works with llama.cpp on iOS, but this project is
-  Android-only.
-
 ## References
 
 - llama.cpp: https://github.com/ggerganov/llama.cpp
