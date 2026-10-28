@@ -27,7 +27,7 @@ This folder is the staging area for packaging the Q2_K GGUF in
 | `Llama-3.2-1B-Instruct.Q6_K`    | ~974 MB  | Near-lossless                         |
 | `Llama-3.2-1B-Instruct.Q8_0`    | ~1.26 GB | Almost full quality                   |
 
-## Why Q2_K
+## Smallest Model Q2_K
 
 Q2_K is the smallest practical variant (~554 MB on disk) and is the
 only one that fits comfortably on phones with ≤ 4 GB of RAM after
