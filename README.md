@@ -5,6 +5,7 @@
   <img src="images/EAI_1.png" alt="Model Architecture" width="300" height="500">
 </p>
 
+
 ## Deploying Llama-3.2-1B-Instruct (Q2_K GGUF) on Android
 
 This folder is the staging area for packaging the Q2_K GGUF in
@@ -12,21 +13,19 @@ This folder is the staging area for packaging the Q2_K GGUF in
 
 ## Quantizied models
 
-Source directory: `../llama-3.2-1B-Instruct-gguf/`
-
 | File                                 | Size     | Notes                                 |
 | ------------------------------------ | -------- | ------------------------------------- |
-| `Llama-3.2-1B-Instruct.F16.gguf`     | ~2.4 GB  | Full precision. **Too large for phone.** |
-| `Llama-3.2-1B-Instruct.Q2_K.gguf`    | ~554 MB  | **Chosen variant.** Smallest, lowest quality, fits on phones with ≤ 4 GB RAM. |
-| `Llama-3.2-1B-Instruct.Q3_K_L.gguf`  | ~698 MB  | Aggressive quant                      |
-| `Llama-3.2-1B-Instruct.Q3_K_M.gguf`  | ~659 MB  |                                       |
-| `Llama-3.2-1B-Instruct.Q3_K_S.gguf`  | ~612 MB  |                                       |
-| `Llama-3.2-1B-Instruct.Q4_K_M.gguf`  | ~770 MB  | **Recommended balance size↔quality**  |
-| `Llama-3.2-1B-Instruct.Q4_K_S.gguf`  | ~740 MB  |                                       |
-| `Llama-3.2-1B-Instruct.Q5_K_M.gguf`  | ~869 MB  | Higher quality, larger                |
-| `Llama-3.2-1B-Instruct.Q5_K_S.gguf`  | ~851 MB  |                                       |
-| `Llama-3.2-1B-Instruct.Q6_K.gguf`    | ~974 MB  | Near-lossless                         |
-| `Llama-3.2-1B-Instruct.Q8_0.gguf`    | ~1.26 GB | Almost full quality                   |
+| `Llama-3.2-1B-Instruct.F16`     | ~2.4 GB  | Full precision. **Too large for phone.** |
+| `Llama-3.2-1B-Instruct.Q2_K`    | ~554 MB  | **Chosen variant.** Smallest, lowest quality, fits on phones with ≤ 4 GB RAM. |
+| `Llama-3.2-1B-Instruct.Q3_K_L`  | ~698 MB  | Aggressive quant                      |
+| `Llama-3.2-1B-Instruct.Q3_K_M`  | ~659 MB  |                                       |
+| `Llama-3.2-1B-Instruct.Q3_K_S`  | ~612 MB  |                                       |
+| `Llama-3.2-1B-Instruct.Q4_K_M`  | ~770 MB  | **Recommended balance size↔quality**  |
+| `Llama-3.2-1B-Instruct.Q4_K_S`  | ~740 MB  |                                       |
+| `Llama-3.2-1B-Instruct.Q5_K_M`  | ~869 MB  | Higher quality, larger                |
+| `Llama-3.2-1B-Instruct.Q5_K_S`  | ~851 MB  |                                       |
+| `Llama-3.2-1B-Instruct.Q6_K`    | ~974 MB  | Near-lossless                         |
+| `Llama-3.2-1B-Instruct.Q8_0`    | ~1.26 GB | Almost full quality                   |
 
 ## Why Q2_K
 
